@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Semibold.woff') format('woff'),
+        url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body{
+	font-family: 'Gilroy';
+	background: #212121;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	min-height: 100vh;
+}
+
+.wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mode-buttons{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.mode-button:hover{
+    background-color: #535353;
+}
+
+.mode-button{
+    width: 144px;
+    height: 44px;
+	background: #303030;
+	border: none;
+	border-radius: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	color: white;
+	width: 30%;
+	cursor: pointer;
+}
+
+.timer{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+    margin-bottom: 56px;
+}
+
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+    width: 60px;
+	font-size: 110px;
+	background: #303030;
+	padding: 8px 16px 12px;
+	border-radius: 16px;
+}
+
+.dots{
+	font-size: 110px;
+	color: #fff;
+    margin: 0px 16px;
+}
+
+.func-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.func-button{
+    width: 94px;
+    height: 94px;
+    background: #303030;
+	border: none;
+    border-radius: 100px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    cursor: pointer;
+}
+
+.func-button:hover{
+    background-color: #535353;
+}
+
+.play{
+    width: 144px;
+    height: 144px;
+    background: #E35943;
+}
+
+.play:hover{
+    background: #bb4837;
+}
+
+hr{
+    width: 100%;
+}
+
+.tasks{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasks-settings{
+    width:28px;
+    height: 28px;
+}
+
+.tasks-add{
+
+    width: 100%;
+    height: 64px;
+    background: #303030;
+    border: 2px dashed #535353;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Gilroy';
+    color: white;
+    font-size: 18px;
+}
+
+.tasks-add:hover{
+    background: #535353;
+}
+
+.active{
+    background: #E35943;
+}
+
+.active:hover{
+    background: #bb4837;
+}

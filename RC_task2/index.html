@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro timer</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="mode-buttons">
+            <button type="submit" class="mode-button pomodoro" id="pomodoro-button">
+                Pomodoro
+            </button>
+            <button type="submit" class="mode-button short-break" id="short-break-button">
+                Short break
+            </button>
+            <button type="submit" class="mode-button long-break" id="long-break-button">
+                Long break
+            </button>
+        </div>
+        <div class="timer">
+            <div class="num" id="min_tens">0</div>
+            <div class="num" id="min">0</div>
+            <div class="dots">:</div>
+            <div class="num" id="sec_tens">0</div>
+            <div class="num" id="sec">0</div>
+        </div>
+        <div class="func-buttons">
+            <button type="submit" class="func-button settings open-popup" id="settings-button">
+                <img src="./img/svg/settings_ico.svg" alt="Settings">
+            </button>
+            <button type="submit" class="func-button play" id="play-button">
+                <img src="./img/svg/play_ico.svg" alt="Play">
+            </button>
+            <button type="submit" class="func-button reset" id="reset-button">
+                <img src="./img/svg/reset_ico.svg" alt="Reset">
+            </button>
+        </div>
+        <div class="activity">
+            <p class="current-activity">
+                pomodoro #1
+            </p>
+        </div>
+        <div class="tasks">
+            <p class="tasks-text">
+                Tasks
+            </p>
+            <button class="func-button tasks-settings">
+                <img src="./img/svg/option_ico.svg" alt="task options" class="task-settings_icon">
+            </button>
+        </div>
+        <hr>
+        <button class="tasks-add">
+            Add task
+        </button>
+    </div>
+
+
+    <!--
+    <div class="popup__bg"> 
+        <form class="popup">
+            <img src="images/close.svg" class="close-popup">
+            <label>
+                <input type="text" name="name">
+                <div class="label__text">
+                    
+                </div>
+            </label>
+            <label>
+                <input type="tel" name="tel">
+                <div class="label__text">
+                    
+                </div>
+            </label>
+            <label>
+                <textarea name="message"></textarea>
+                <div class="label__text">
+
+                </div>
+            </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>  
+    -->
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
